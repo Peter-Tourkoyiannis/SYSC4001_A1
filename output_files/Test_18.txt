@@ -1,0 +1,515 @@
+0, 51, CPU burst
+51, 1, switch to kernel mode
+52, 30, context saved
+82, 1, find vector 14 in memory position 0x001C
+83, 1, load address 0X0165 into the PC
+84, 456, I/O request started for device 14
+84, 39, CPU burst
+540, 1, switch to kernel mode
+541, 30, context saved
+571, 1, find vector 14 in memory position 0x001C
+572, 1, load address 0X0165 into the PC
+573, 100, ISR activity from device 14 chunk number 0
+673, 100, ISR activity from device 14 chunk number 1
+773, 100, ISR activity from device 14 chunk number 2
+873, 100, ISR activity from device 14 chunk number 3
+973, 100, ISR activity from device 14 chunk number 4
+1073, 1, IRET
+1074, 72, CPU burst
+1146, 1, switch to kernel mode
+1147, 30, context saved
+1177, 1, find vector 19 in memory position 0x0026
+1178, 1, load address 0X0765 into the PC
+1179, 652, I/O request started for device 19
+1179, 28, CPU burst
+1831, 1, switch to kernel mode
+1832, 30, context saved
+1862, 1, find vector 19 in memory position 0x0026
+1863, 1, load address 0X0765 into the PC
+1864, 100, ISR activity from device 19 chunk number 0
+1964, 100, ISR activity from device 19 chunk number 1
+2064, 100, ISR activity from device 19 chunk number 2
+2164, 100, ISR activity from device 19 chunk number 3
+2264, 100, ISR activity from device 19 chunk number 4
+2364, 100, ISR activity from device 19 chunk number 5
+2464, 100, ISR activity from device 19 chunk number 6
+2564, 1, IRET
+2565, 32, CPU burst
+2597, 1, switch to kernel mode
+2598, 30, context saved
+2628, 1, find vector 7 in memory position 0x000E
+2629, 1, load address 0X00BD into the PC
+2630, 152, I/O request started for device 7
+2630, 25, CPU burst
+2782, 1, switch to kernel mode
+2783, 30, context saved
+2813, 1, find vector 7 in memory position 0x000E
+2814, 1, load address 0X00BD into the PC
+2815, 100, ISR activity from device 7 chunk number 0
+2915, 100, ISR activity from device 7 chunk number 1
+3015, 1, IRET
+3016, 11, CPU burst
+3027, 1, switch to kernel mode
+3028, 30, context saved
+3058, 1, find vector 16 in memory position 0x0020
+3059, 1, load address 0X02DF into the PC
+3060, 956, I/O request started for device 16
+3060, 54, CPU burst
+4016, 1, switch to kernel mode
+4017, 30, context saved
+4047, 1, find vector 16 in memory position 0x0020
+4048, 1, load address 0X02DF into the PC
+4049, 100, ISR activity from device 16 chunk number 0
+4149, 100, ISR activity from device 16 chunk number 1
+4249, 100, ISR activity from device 16 chunk number 2
+4349, 100, ISR activity from device 16 chunk number 3
+4449, 100, ISR activity from device 16 chunk number 4
+4549, 100, ISR activity from device 16 chunk number 5
+4649, 100, ISR activity from device 16 chunk number 6
+4749, 100, ISR activity from device 16 chunk number 7
+4849, 100, ISR activity from device 16 chunk number 8
+4949, 100, ISR activity from device 16 chunk number 9
+5049, 1, IRET
+5050, 96, CPU burst
+5146, 1, switch to kernel mode
+5147, 30, context saved
+5177, 1, find vector 8 in memory position 0x0010
+5178, 1, load address 0X06EF into the PC
+5179, 1000, I/O request started for device 8
+5179, 54, CPU burst
+6179, 1, switch to kernel mode
+6180, 30, context saved
+6210, 1, find vector 8 in memory position 0x0010
+6211, 1, load address 0X06EF into the PC
+6212, 100, ISR activity from device 8 chunk number 0
+6312, 100, ISR activity from device 8 chunk number 1
+6412, 100, ISR activity from device 8 chunk number 2
+6512, 100, ISR activity from device 8 chunk number 3
+6612, 100, ISR activity from device 8 chunk number 4
+6712, 100, ISR activity from device 8 chunk number 5
+6812, 100, ISR activity from device 8 chunk number 6
+6912, 100, ISR activity from device 8 chunk number 7
+7012, 100, ISR activity from device 8 chunk number 8
+7112, 100, ISR activity from device 8 chunk number 9
+7212, 1, IRET
+7213, 77, CPU burst
+7290, 1, switch to kernel mode
+7291, 30, context saved
+7321, 1, find vector 11 in memory position 0x0016
+7322, 1, load address 0X01F8 into the PC
+7323, 523, I/O request started for device 11
+7323, 33, CPU burst
+7846, 1, switch to kernel mode
+7847, 30, context saved
+7877, 1, find vector 11 in memory position 0x0016
+7878, 1, load address 0X01F8 into the PC
+7879, 100, ISR activity from device 11 chunk number 0
+7979, 100, ISR activity from device 11 chunk number 1
+8079, 100, ISR activity from device 11 chunk number 2
+8179, 100, ISR activity from device 11 chunk number 3
+8279, 100, ISR activity from device 11 chunk number 4
+8379, 100, ISR activity from device 11 chunk number 5
+8479, 1, IRET
+8480, 60, CPU burst
+8540, 1, switch to kernel mode
+8541, 30, context saved
+8571, 1, find vector 16 in memory position 0x0020
+8572, 1, load address 0X02DF into the PC
+8573, 956, I/O request started for device 16
+8573, 21, CPU burst
+9529, 1, switch to kernel mode
+9530, 30, context saved
+9560, 1, find vector 16 in memory position 0x0020
+9561, 1, load address 0X02DF into the PC
+9562, 100, ISR activity from device 16 chunk number 0
+9662, 100, ISR activity from device 16 chunk number 1
+9762, 100, ISR activity from device 16 chunk number 2
+9862, 100, ISR activity from device 16 chunk number 3
+9962, 100, ISR activity from device 16 chunk number 4
+10062, 100, ISR activity from device 16 chunk number 5
+10162, 100, ISR activity from device 16 chunk number 6
+10262, 100, ISR activity from device 16 chunk number 7
+10362, 100, ISR activity from device 16 chunk number 8
+10462, 100, ISR activity from device 16 chunk number 9
+10562, 1, IRET
+10563, 19, CPU burst
+10582, 1, switch to kernel mode
+10583, 30, context saved
+10613, 1, find vector 2 in memory position 0x0004
+10614, 1, load address 0X0695 into the PC
+10615, 150, I/O request started for device 2
+10615, 26, CPU burst
+10765, 1, switch to kernel mode
+10766, 30, context saved
+10796, 1, find vector 2 in memory position 0x0004
+10797, 1, load address 0X0695 into the PC
+10798, 100, ISR activity from device 2 chunk number 0
+10898, 100, ISR activity from device 2 chunk number 1
+10998, 1, IRET
+10999, 38, CPU burst
+11037, 1, switch to kernel mode
+11038, 30, context saved
+11068, 1, find vector 16 in memory position 0x0020
+11069, 1, load address 0X02DF into the PC
+11070, 956, I/O request started for device 16
+11070, 28, CPU burst
+12026, 1, switch to kernel mode
+12027, 30, context saved
+12057, 1, find vector 16 in memory position 0x0020
+12058, 1, load address 0X02DF into the PC
+12059, 100, ISR activity from device 16 chunk number 0
+12159, 100, ISR activity from device 16 chunk number 1
+12259, 100, ISR activity from device 16 chunk number 2
+12359, 100, ISR activity from device 16 chunk number 3
+12459, 100, ISR activity from device 16 chunk number 4
+12559, 100, ISR activity from device 16 chunk number 5
+12659, 100, ISR activity from device 16 chunk number 6
+12759, 100, ISR activity from device 16 chunk number 7
+12859, 100, ISR activity from device 16 chunk number 8
+12959, 100, ISR activity from device 16 chunk number 9
+13059, 1, IRET
+13060, 65, CPU burst
+13125, 1, switch to kernel mode
+13126, 30, context saved
+13156, 1, find vector 16 in memory position 0x0020
+13157, 1, load address 0X02DF into the PC
+13158, 956, I/O request started for device 16
+13158, 88, CPU burst
+14114, 1, switch to kernel mode
+14115, 30, context saved
+14145, 1, find vector 16 in memory position 0x0020
+14146, 1, load address 0X02DF into the PC
+14147, 100, ISR activity from device 16 chunk number 0
+14247, 100, ISR activity from device 16 chunk number 1
+14347, 100, ISR activity from device 16 chunk number 2
+14447, 100, ISR activity from device 16 chunk number 3
+14547, 100, ISR activity from device 16 chunk number 4
+14647, 100, ISR activity from device 16 chunk number 5
+14747, 100, ISR activity from device 16 chunk number 6
+14847, 100, ISR activity from device 16 chunk number 7
+14947, 100, ISR activity from device 16 chunk number 8
+15047, 100, ISR activity from device 16 chunk number 9
+15147, 1, IRET
+15148, 100, CPU burst
+15248, 1, switch to kernel mode
+15249, 30, context saved
+15279, 1, find vector 17 in memory position 0x0022
+15280, 1, load address 0X05B3 into the PC
+15281, 235, I/O request started for device 17
+15281, 28, CPU burst
+15516, 1, switch to kernel mode
+15517, 30, context saved
+15547, 1, find vector 17 in memory position 0x0022
+15548, 1, load address 0X05B3 into the PC
+15549, 100, ISR activity from device 17 chunk number 0
+15649, 100, ISR activity from device 17 chunk number 1
+15749, 100, ISR activity from device 17 chunk number 2
+15849, 1, IRET
+15850, 25, CPU burst
+15875, 1, switch to kernel mode
+15876, 30, context saved
+15906, 1, find vector 1 in memory position 0x0002
+15907, 1, load address 0X029C into the PC
+15908, 100, I/O request started for device 1
+15908, 21, CPU burst
+16008, 1, switch to kernel mode
+16009, 30, context saved
+16039, 1, find vector 1 in memory position 0x0002
+16040, 1, load address 0X029C into the PC
+16041, 100, ISR activity from device 1 chunk number 0
+16141, 1, IRET
+16142, 25, CPU burst
+16167, 1, switch to kernel mode
+16168, 30, context saved
+16198, 1, find vector 19 in memory position 0x0026
+16199, 1, load address 0X0765 into the PC
+16200, 652, I/O request started for device 19
+16200, 34, CPU burst
+16852, 1, switch to kernel mode
+16853, 30, context saved
+16883, 1, find vector 19 in memory position 0x0026
+16884, 1, load address 0X0765 into the PC
+16885, 100, ISR activity from device 19 chunk number 0
+16985, 100, ISR activity from device 19 chunk number 1
+17085, 100, ISR activity from device 19 chunk number 2
+17185, 100, ISR activity from device 19 chunk number 3
+17285, 100, ISR activity from device 19 chunk number 4
+17385, 100, ISR activity from device 19 chunk number 5
+17485, 100, ISR activity from device 19 chunk number 6
+17585, 1, IRET
+17586, 34, CPU burst
+17620, 1, switch to kernel mode
+17621, 30, context saved
+17651, 1, find vector 8 in memory position 0x0010
+17652, 1, load address 0X06EF into the PC
+17653, 1000, I/O request started for device 8
+17653, 59, CPU burst
+18653, 1, switch to kernel mode
+18654, 30, context saved
+18684, 1, find vector 8 in memory position 0x0010
+18685, 1, load address 0X06EF into the PC
+18686, 100, ISR activity from device 8 chunk number 0
+18786, 100, ISR activity from device 8 chunk number 1
+18886, 100, ISR activity from device 8 chunk number 2
+18986, 100, ISR activity from device 8 chunk number 3
+19086, 100, ISR activity from device 8 chunk number 4
+19186, 100, ISR activity from device 8 chunk number 5
+19286, 100, ISR activity from device 8 chunk number 6
+19386, 100, ISR activity from device 8 chunk number 7
+19486, 100, ISR activity from device 8 chunk number 8
+19586, 100, ISR activity from device 8 chunk number 9
+19686, 1, IRET
+19687, 44, CPU burst
+19731, 1, switch to kernel mode
+19732, 30, context saved
+19762, 1, find vector 15 in memory position 0x001E
+19763, 1, load address 0X0584 into the PC
+19764, 68, I/O request started for device 15
+19764, 51, CPU burst
+19832, 1, switch to kernel mode
+19833, 30, context saved
+19863, 1, find vector 15 in memory position 0x001E
+19864, 1, load address 0X0584 into the PC
+19865, 100, ISR activity from device 15 chunk number 0
+19965, 1, IRET
+19966, 87, CPU burst
+20053, 1, switch to kernel mode
+20054, 30, context saved
+20084, 1, find vector 11 in memory position 0x0016
+20085, 1, load address 0X01F8 into the PC
+20086, 523, I/O request started for device 11
+20086, 65, CPU burst
+20609, 1, switch to kernel mode
+20610, 30, context saved
+20640, 1, find vector 11 in memory position 0x0016
+20641, 1, load address 0X01F8 into the PC
+20642, 100, ISR activity from device 11 chunk number 0
+20742, 100, ISR activity from device 11 chunk number 1
+20842, 100, ISR activity from device 11 chunk number 2
+20942, 100, ISR activity from device 11 chunk number 3
+21042, 100, ISR activity from device 11 chunk number 4
+21142, 100, ISR activity from device 11 chunk number 5
+21242, 1, IRET
+21243, 48, CPU burst
+21291, 1, switch to kernel mode
+21292, 30, context saved
+21322, 1, find vector 16 in memory position 0x0020
+21323, 1, load address 0X02DF into the PC
+21324, 956, I/O request started for device 16
+21324, 51, CPU burst
+22280, 1, switch to kernel mode
+22281, 30, context saved
+22311, 1, find vector 16 in memory position 0x0020
+22312, 1, load address 0X02DF into the PC
+22313, 100, ISR activity from device 16 chunk number 0
+22413, 100, ISR activity from device 16 chunk number 1
+22513, 100, ISR activity from device 16 chunk number 2
+22613, 100, ISR activity from device 16 chunk number 3
+22713, 100, ISR activity from device 16 chunk number 4
+22813, 100, ISR activity from device 16 chunk number 5
+22913, 100, ISR activity from device 16 chunk number 6
+23013, 100, ISR activity from device 16 chunk number 7
+23113, 100, ISR activity from device 16 chunk number 8
+23213, 100, ISR activity from device 16 chunk number 9
+23313, 1, IRET
+23314, 37, CPU burst
+23351, 1, switch to kernel mode
+23352, 30, context saved
+23382, 1, find vector 1 in memory position 0x0002
+23383, 1, load address 0X029C into the PC
+23384, 100, I/O request started for device 1
+23384, 18, CPU burst
+23484, 1, switch to kernel mode
+23485, 30, context saved
+23515, 1, find vector 1 in memory position 0x0002
+23516, 1, load address 0X029C into the PC
+23517, 100, ISR activity from device 1 chunk number 0
+23617, 1, IRET
+23618, 11, CPU burst
+23629, 1, switch to kernel mode
+23630, 30, context saved
+23660, 1, find vector 2 in memory position 0x0004
+23661, 1, load address 0X0695 into the PC
+23662, 150, I/O request started for device 2
+23662, 46, CPU burst
+23812, 1, switch to kernel mode
+23813, 30, context saved
+23843, 1, find vector 2 in memory position 0x0004
+23844, 1, load address 0X0695 into the PC
+23845, 100, ISR activity from device 2 chunk number 0
+23945, 100, ISR activity from device 2 chunk number 1
+24045, 1, IRET
+24046, 33, CPU burst
+24079, 1, switch to kernel mode
+24080, 30, context saved
+24110, 1, find vector 12 in memory position 0x0018
+24111, 1, load address 0X03B9 into the PC
+24112, 145, I/O request started for device 12
+24112, 75, CPU burst
+24257, 1, switch to kernel mode
+24258, 30, context saved
+24288, 1, find vector 12 in memory position 0x0018
+24289, 1, load address 0X03B9 into the PC
+24290, 100, ISR activity from device 12 chunk number 0
+24390, 100, ISR activity from device 12 chunk number 1
+24490, 1, IRET
+24491, 88, CPU burst
+24579, 1, switch to kernel mode
+24580, 30, context saved
+24610, 1, find vector 18 in memory position 0x0024
+24611, 1, load address 0X060A into the PC
+24612, 123, I/O request started for device 18
+24612, 29, CPU burst
+24735, 1, switch to kernel mode
+24736, 30, context saved
+24766, 1, find vector 18 in memory position 0x0024
+24767, 1, load address 0X060A into the PC
+24768, 100, ISR activity from device 18 chunk number 0
+24868, 100, ISR activity from device 18 chunk number 1
+24968, 1, IRET
+24969, 28, CPU burst
+24997, 1, switch to kernel mode
+24998, 30, context saved
+25028, 1, find vector 1 in memory position 0x0002
+25029, 1, load address 0X029C into the PC
+25030, 100, I/O request started for device 1
+25030, 69, CPU burst
+25130, 1, switch to kernel mode
+25131, 30, context saved
+25161, 1, find vector 1 in memory position 0x0002
+25162, 1, load address 0X029C into the PC
+25163, 100, ISR activity from device 1 chunk number 0
+25263, 1, IRET
+25264, 48, CPU burst
+25312, 1, switch to kernel mode
+25313, 30, context saved
+25343, 1, find vector 4 in memory position 0x0008
+25344, 1, load address 0X0292 into the PC
+25345, 250, I/O request started for device 4
+25345, 36, CPU burst
+25595, 1, switch to kernel mode
+25596, 30, context saved
+25626, 1, find vector 4 in memory position 0x0008
+25627, 1, load address 0X0292 into the PC
+25628, 100, ISR activity from device 4 chunk number 0
+25728, 100, ISR activity from device 4 chunk number 1
+25828, 100, ISR activity from device 4 chunk number 2
+25928, 1, IRET
+25929, 99, CPU burst
+26028, 1, switch to kernel mode
+26029, 30, context saved
+26059, 1, find vector 18 in memory position 0x0024
+26060, 1, load address 0X060A into the PC
+26061, 123, I/O request started for device 18
+26061, 56, CPU burst
+26184, 1, switch to kernel mode
+26185, 30, context saved
+26215, 1, find vector 18 in memory position 0x0024
+26216, 1, load address 0X060A into the PC
+26217, 100, ISR activity from device 18 chunk number 0
+26317, 100, ISR activity from device 18 chunk number 1
+26417, 1, IRET
+26418, 61, CPU burst
+26479, 1, switch to kernel mode
+26480, 30, context saved
+26510, 1, find vector 16 in memory position 0x0020
+26511, 1, load address 0X02DF into the PC
+26512, 956, I/O request started for device 16
+26512, 35, CPU burst
+27468, 1, switch to kernel mode
+27469, 30, context saved
+27499, 1, find vector 16 in memory position 0x0020
+27500, 1, load address 0X02DF into the PC
+27501, 100, ISR activity from device 16 chunk number 0
+27601, 100, ISR activity from device 16 chunk number 1
+27701, 100, ISR activity from device 16 chunk number 2
+27801, 100, ISR activity from device 16 chunk number 3
+27901, 100, ISR activity from device 16 chunk number 4
+28001, 100, ISR activity from device 16 chunk number 5
+28101, 100, ISR activity from device 16 chunk number 6
+28201, 100, ISR activity from device 16 chunk number 7
+28301, 100, ISR activity from device 16 chunk number 8
+28401, 100, ISR activity from device 16 chunk number 9
+28501, 1, IRET
+28502, 54, CPU burst
+28556, 1, switch to kernel mode
+28557, 30, context saved
+28587, 1, find vector 10 in memory position 0x0014
+28588, 1, load address 0X07B0 into the PC
+28589, 564, I/O request started for device 10
+28589, 83, CPU burst
+29153, 1, switch to kernel mode
+29154, 30, context saved
+29184, 1, find vector 10 in memory position 0x0014
+29185, 1, load address 0X07B0 into the PC
+29186, 100, ISR activity from device 10 chunk number 0
+29286, 100, ISR activity from device 10 chunk number 1
+29386, 100, ISR activity from device 10 chunk number 2
+29486, 100, ISR activity from device 10 chunk number 3
+29586, 100, ISR activity from device 10 chunk number 4
+29686, 100, ISR activity from device 10 chunk number 5
+29786, 1, IRET
+29787, 51, CPU burst
+29838, 1, switch to kernel mode
+29839, 30, context saved
+29869, 1, find vector 11 in memory position 0x0016
+29870, 1, load address 0X01F8 into the PC
+29871, 523, I/O request started for device 11
+29871, 85, CPU burst
+30394, 1, switch to kernel mode
+30395, 30, context saved
+30425, 1, find vector 11 in memory position 0x0016
+30426, 1, load address 0X01F8 into the PC
+30427, 100, ISR activity from device 11 chunk number 0
+30527, 100, ISR activity from device 11 chunk number 1
+30627, 100, ISR activity from device 11 chunk number 2
+30727, 100, ISR activity from device 11 chunk number 3
+30827, 100, ISR activity from device 11 chunk number 4
+30927, 100, ISR activity from device 11 chunk number 5
+31027, 1, IRET
+31028, 48, CPU burst
+31076, 1, switch to kernel mode
+31077, 30, context saved
+31107, 1, find vector 6 in memory position 0x000C
+31108, 1, load address 0X0639 into the PC
+31109, 265, I/O request started for device 6
+31109, 58, CPU burst
+31374, 1, switch to kernel mode
+31375, 30, context saved
+31405, 1, find vector 6 in memory position 0x000C
+31406, 1, load address 0X0639 into the PC
+31407, 100, ISR activity from device 6 chunk number 0
+31507, 100, ISR activity from device 6 chunk number 1
+31607, 100, ISR activity from device 6 chunk number 2
+31707, 1, IRET
+31708, 21, CPU burst
+31729, 1, switch to kernel mode
+31730, 30, context saved
+31760, 1, find vector 5 in memory position 0x000A
+31761, 1, load address 0X048B into the PC
+31762, 211, I/O request started for device 5
+31762, 62, CPU burst
+31973, 1, switch to kernel mode
+31974, 30, context saved
+32004, 1, find vector 5 in memory position 0x000A
+32005, 1, load address 0X048B into the PC
+32006, 100, ISR activity from device 5 chunk number 0
+32106, 100, ISR activity from device 5 chunk number 1
+32206, 100, ISR activity from device 5 chunk number 2
+32306, 1, IRET
+32307, 41, CPU burst
+32348, 1, switch to kernel mode
+32349, 30, context saved
+32379, 1, find vector 4 in memory position 0x0008
+32380, 1, load address 0X0292 into the PC
+32381, 250, I/O request started for device 4
+32381, 48, CPU burst
+32631, 1, switch to kernel mode
+32632, 30, context saved
+32662, 1, find vector 4 in memory position 0x0008
+32663, 1, load address 0X0292 into the PC
+32664, 100, ISR activity from device 4 chunk number 0
+32764, 100, ISR activity from device 4 chunk number 1
+32864, 100, ISR activity from device 4 chunk number 2
+32964, 1, IRET
+32965, 63, CPU burst
